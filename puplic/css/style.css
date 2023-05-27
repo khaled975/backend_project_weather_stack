@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(to left top ,#031A9A,#8b53ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    max-width: 100%;
+}
+h1{
+    margin:0 0 70px ;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 75px;
+    letter-spacing: 2px;
+}
+form{
+    border-radius: 48px;
+    padding: 15px 15px;
+    outline: 3px solid #8853FF;
+    outline-offset: 4px;
+    display: flex;
+    margin: auto;
+    background-color: white;
+    max-width: 100%;
+}
+form input{
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 18px;
+    border-radius: 48px;
+    transition: 1s;
+}
+form input::placeholder{
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    color: black;
+}
+form button{
+    border: none;
+    border-radius: 22px;
+    color: white;
+    width: 120px;
+    padding: 0px 15px;
+    background-image: linear-gradient(to left top ,#031A9A,#8b53ff);
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+p{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: white;
+}
